@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Restalog, sebuah websit untuk mencari restoran berkualitas yang tersebar di seluruh indonesia">
+  <!-- web manifest -->
+  <link rel="manifest" href="./app.Webmanifest">
+  <!-- icon web -->
+  <link rel="apple-touch-icon" href="../public/image/logo.png">
+  <link rel="icon" href="./image/logo.png" type="image/png">
+  <!-- Icon -->
+  <script src="https://use.fontawesome.com/b070c8f1df.js">
+  </script>
+  <title>Restalog</title>
+</head>
+
+<body>
+  <a href="#content" class="skip-link">Skip to content</a>
+
+  <!-- Mobile Navbar -->
+  <div class="menu-mobile">
+    <div class="icon-menu" id="menu">
+      <button class="hamburger" href="#">&#9776;</button>
+    </div>
+    <div class="logo-mobile">Restalog</div>
+  </div>
+  <nav id="drawer" class="nav-mobile">
+    <ul class="nav-list-mobile">
+      <li class="nav-items-mobile"><a href="#/">Home</a></li>
+      <li class="nav-items-mobile"><a href="#/favorite">Favorite</a></li>
+      <li class="nav-items-mobile">
+        <a target="_blank" href="https://www.linkedin.com/in/akmalaa/">About Us</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Desktop Navbar -->
+  <nav class="nav">
+    <a class="logo" href="">Restalog</a>
+    <ul class="nav-list">
+      <li class="nav-items"><a href="#/">Home</a></li>
+      <li class="nav-items"><a href="#/favorite">Favorite</a></li>
+      <li class="nav-items">
+        <a target="_blank" href="https://www.linkedin.com/in/akmalaa/">About Us</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="hero" style="
+  background-image: linear-gradient(
+      rgba(0, 0, 5, 0.65),
+      rgba(0, 0, 5, 0.5)
+    ),
+    url('./image/hero-image_2.jpg');
+">
+    <div class="hero-inner">
+      <h1 class="hero-title">Restalog</h1>
+      <p class="hero-subtitle">
+        The Most Trusted Application to Find Your Favorite Restaurant!
+      </p>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <main id="content"></main>
+
+  <!-- Footer -->
+  <footer>
+    <p>@2023 - Restalog</p>
+  </footer>
+</body>
+
+</html>
